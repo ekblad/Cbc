@@ -1,0 +1,20 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Cgl\Cgl\MSVisualStudio\v17\libCgl\libCgl.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libClp\libClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libOsiClp\libOsiClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\CoinUtils\CoinUtils\MSVisualStudio\v17\libCoinUtils\libCoinUtils.vcxproj' does not exist.
+  CbcCbcParam.cpp
+  CbcLinked.cpp
+  CbcLinkedUtils.cpp
+  CbcMipStartIO.cpp
+  CbcSolver.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcSolver.cpp(7979,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcSolver.cpp(8119,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcSolver.cpp(8293,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcSolver.cpp(8294,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CbcSolverAnalyze.cpp
+  CbcSolverExpandKnapsack.cpp
+  CbcSolverHeuristics.cpp
+  Cbc_C_Interface.cpp
+  unitTestClp.cpp
+  Generating Code...
+  libCbcSolver.vcxproj -> C:\Users\ekblad\jCbc\build\Cbc\Cbc\MSVisualStudio\v17\x64\Debug\libCbcSolver.lib

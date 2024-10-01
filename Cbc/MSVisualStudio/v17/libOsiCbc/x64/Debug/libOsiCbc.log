@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libClp\libClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libOsiClp\libOsiClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\CoinUtils\CoinUtils\MSVisualStudio\v17\libCoinUtils\libCoinUtils.vcxproj' does not exist.
+  OsiCbcSolverInterface.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\OsiCbc\OsiCbcSolverInterface.hpp(304,46): warning C4309: 'default argument': truncation of constant value
+  (compiling source file '../../../src/OsiCbc/OsiCbcSolverInterface.cpp')
+  
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\OsiCbc\OsiCbcSolverInterface.hpp(313,17): warning C4309: 'default argument': truncation of constant value
+  (compiling source file '../../../src/OsiCbc/OsiCbcSolverInterface.cpp')
+  
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\OsiCbc\OsiCbcSolverInterface.hpp(335,17): warning C4309: 'default argument': truncation of constant value
+  (compiling source file '../../../src/OsiCbc/OsiCbcSolverInterface.cpp')
+  
+  libOsiCbc.vcxproj -> C:\Users\ekblad\jCbc\build\Cbc\Cbc\MSVisualStudio\v17\x64\Debug\libOsiCbc.lib

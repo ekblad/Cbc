@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 Cbc/acinclude.m4
+=======
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
 aclocal.m4*
 aclocal.m4.orig*
 autom4te*
@@ -23,4 +26,8 @@ dist
 # Ignore files created during unit tests
 **/MSVisualStudio/**/*.mps
 **/MSVisualStudio/**/*.lp
+<<<<<<< HEAD
 **/MSVisualStudio/**/*.out
+=======
+**/MSVisualStudio/**/*.out
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f

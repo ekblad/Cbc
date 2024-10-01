@@ -1,0 +1,102 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Cgl\Cgl\MSVisualStudio\v17\libCgl\libCgl.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libClp\libClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Clp\Clp\MSVisualStudio\v17\libOsiClp\libOsiClp.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\CoinUtils\CoinUtils\MSVisualStudio\v17\libCoinUtils\libCoinUtils.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\..\..\..\Osi\Osi\MSVisualStudio\v17\libOsi\libOsi.vcxproj' does not exist.
+  CbcBranchAllDifferent.cpp
+  CbcBranchCut.cpp
+  CbcBranchDecision.cpp
+  CbcBranchDefaultDecision.cpp
+  CbcBranchDynamic.cpp
+  CbcBranchingObject.cpp
+  CbcBranchLotsize.cpp
+  CbcBranchToFixLots.cpp
+  CbcCbcParam.cpp
+  CbcClique.cpp
+  CbcCompareDefault.cpp
+  CbcCompareDepth.cpp
+  CbcCompareEstimate.cpp
+  CbcCompareObjective.cpp
+  CbcConsequence.cpp
+  CbcCountRowCut.cpp
+  CbcCutGenerator.cpp
+  CbcCutModifier.cpp
+  CbcCutSubsetModifier.cpp
+  CbcDummyBranchingObject.cpp
+  Generating Code...
+  Compiling...
+  CbcEventHandler.cpp
+  CbcFathom.cpp
+  CbcFathomDynamicProgramming.cpp
+  CbcFixVariable.cpp
+  CbcFollowOn.cpp
+  CbcFullNodeInfo.cpp
+  CbcGeneral.cpp
+  CbcGeneralDepth.cpp
+  CbcHeuristic.cpp
+  CbcHeuristicDINS.cpp
+  CbcHeuristicDive.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDive.cpp(688,31): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDive.cpp(723,31): warning C4018: '>': signed/unsigned mismatch
+  CbcHeuristicDiveCoefficient.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveCoefficient.cpp(127,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveCoefficient.cpp(129,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDiveFractional.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveFractional.cpp(111,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveFractional.cpp(113,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDiveGuided.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveGuided.cpp(122,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveGuided.cpp(124,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDiveLineSearch.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveLineSearch.cpp(119,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveLineSearch.cpp(121,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDivePseudoCost.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDivePseudoCost.cpp(140,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDivePseudoCost.cpp(142,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDiveVectorLength.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveVectorLength.cpp(128,30): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicDiveVectorLength.cpp(130,37): warning C4018: '<': signed/unsigned mismatch
+  CbcHeuristicDW.cpp
+  CbcHeuristicFPump.cpp
+  CbcHeuristicGreedy.cpp
+  Generating Code...
+  Compiling...
+  CbcHeuristicLocal.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicLocal.cpp(1205,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcHeuristicLocal.cpp(1206,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  CbcHeuristicPivotAndFix.cpp
+  CbcHeuristicRandRound.cpp
+  CbcHeuristicRENS.cpp
+  CbcHeuristicRINS.cpp
+  CbcHeuristicVND.cpp
+  CbcMessage.cpp
+  CbcMipStartIO.cpp
+  CbcModel.cpp
+  CbcNode.cpp
+  CbcNodeInfo.cpp
+  CbcNWay.cpp
+  CbcObject.cpp
+  CbcObjectUpdateData.cpp
+  CbcParam.cpp
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(169,31): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(174,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(222,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(231,34): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(235,27): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ekblad\jCbc\build\Cbc\Cbc\src\CbcParam.cpp(238,41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  CbcPartialNodeInfo.cpp
+  CbcSimpleInteger.cpp
+  CbcSimpleIntegerDynamicPseudoCost.cpp
+  CbcSimpleIntegerPseudoCost.cpp
+  CbcSOS.cpp
+  Generating Code...
+  Compiling...
+  CbcStatistics.cpp
+  CbcStrategy.cpp
+  CbcSubProblem.cpp
+  CbcSymmetry.cpp
+  CbcThread.cpp
+  CbcTree.cpp
+  CbcTreeLocal.cpp
+  Generating Code...
+  libCbc.vcxproj -> C:\Users\ekblad\jCbc\build\Cbc\Cbc\MSVisualStudio\v17\x64\Debug\libCbc.lib

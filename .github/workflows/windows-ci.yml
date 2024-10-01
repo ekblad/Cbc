@@ -22,6 +22,7 @@ jobs:
         include: [
           { os: windows-2019, arch: x86_64, msystem: mingw64, debug: true, suffix: "-dbg" },
           { os: windows-2019, arch: x86_64, msystem: mingw64, debug: false, suffix: "" },
+<<<<<<< HEAD
           { os: windows-2019, arch: i686, msystem: mingw32, debug: true, suffix: "-dbg" },
           { os: windows-2019, arch: i686, msystem: mingw32, debug: false, suffix: "" },
           { os: windows-2019, arch: msvc, msystem: mingw64, debug: false, suffix: "-md" },
@@ -35,17 +36,34 @@ jobs:
           path: ${{ github.event.repository.name }}
       - name: Checkout coinbrew
         uses: actions/checkout@v3
+=======
+          { os: windows-2019, arch: msvc, msystem: mingw64, debug: false, suffix: "-md" },
+          { os: windows-2022, arch: msvc, msystem: mingw64, debug: false, suffix: "-md" },
+        ]
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          path: ${{ github.event.repository.name }}
+      - name: Checkout coinbrew
+        uses: actions/checkout@v4
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
         with:
           repository: coin-or/coinbrew
           path: coinbrew
       - name: Set up msvc
         if: ${{ matrix.arch == 'msvc' }}
         uses: ilammy/msvc-dev-cmd@v1
+<<<<<<< HEAD
       - name: Set up for msvs
         if: ${{ matrix.arch == 'msvs' }}
         uses: microsoft/setup-msbuild@v1.1
       - name: Set correct host flag and install requirements
         if: ${{ matrix.arch != 'msvc' && matrix.arch != 'msvs' }}
+=======
+      - name: Set correct host flag and install requirements
+        if: ${{ matrix.arch != 'msvc' }}
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
         run: |
           echo "host_flag=--host=${{ matrix.arch }}-w64-mingw32" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
           C:\msys64\usr\bin\pacman -S mingw-w64-${{ matrix.arch }}-lapack mingw-w64-${{ matrix.arch }}-winpthreads-git mingw-w64-${{ matrix.arch }}-readline mingw-w64-${{ matrix.arch }}-suitesparse mingw-w64-${{ matrix.arch }}-metis --noconfirm
@@ -59,6 +77,7 @@ jobs:
             zip
           path-type: inherit
           msystem: ${{ matrix.msystem }}
+<<<<<<< HEAD
       - name: Fetch project for msvs
         if: ${{ matrix.arch == 'msvs' }}
         run: |
@@ -97,6 +116,9 @@ jobs:
           if exist .\Data\Miplib3 xcopy .\Data\Miplib3 dist\share\coin-or-miplib3 /i
       - name: Build project using coinbrew
         if: ${{ matrix.arch != 'msvs' }}
+=======
+      - name: Build project
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
         run: |
           ADD_ARGS=()
           ADD_ARGS+=( --skip='ThirdParty/Metis ThirdParty/Mumps ThirdParty/Blas ThirdParty/Lapack' )
@@ -112,7 +134,11 @@ jobs:
           cp ${{ github.event.repository.name }}/LICENSE dist/
         shell: msys2 {0}
       - name: Upload failed build directory
+<<<<<<< HEAD
         uses: actions/upload-artifact@v3
+=======
+        uses: actions/upload-artifact@v4
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
         if: failure()
         with:
           name: ${{ matrix.os}}-{{ matrix.arch }}-debug=${{ matrix.debug }}-failedbuild
@@ -129,10 +155,16 @@ jobs:
         shell: msys2 {0}
         if: ${{ matrix.arch != 'msvc' }}
       - name: Upload artifact
+<<<<<<< HEAD
         if: ${{ github.event_name == 'pull_request'}}
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }}-${{ github.head_ref }}-${{ env.package_suffix }}
+=======
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}-${{ env.package_suffix }}
+>>>>>>> a5f753c8b5f736f3b84efee8bb82e7ca76f2f66f
           path: dist
           if-no-files-found: error
       - name: Zip up dist contents for release
